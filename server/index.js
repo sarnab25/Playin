@@ -34,7 +34,10 @@ app.listen(4040, () => {
     console.log("Listening to port 4040");
 });
 
-
+app.get('/', (req,res)=>
+{
+    res.send("Playin is running")
+})
 
 app.use(cors());
 app.use(bodyParser.json());
