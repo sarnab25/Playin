@@ -24,7 +24,7 @@ export default function ShowVideo({ vid }) {
     return (
         <>
             <div>
-                <video ref={videoRef} src={`https://playin.onrender.com/${vid.filepath}`} className="video_showvideo" />
+                <video ref={videoRef} src={`http://localhost:4040/${vid.filepath}`} className="video_showvideo" />
                 <Link to={`/videopage/${vid._id}`} 
                     state={{ vid }} onClick={handleClick}>
                         

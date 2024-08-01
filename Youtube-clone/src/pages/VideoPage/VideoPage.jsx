@@ -63,7 +63,7 @@ function VideoPage() {
         <div className="container_videopage">
             <div className="container2_videopage">
                 <div className="video_display_screen_videopage">
-                    <video src={`https://playin.onrender.com/${getvideoResolution(resolution)}`} className="video_showvideo_videopage" controls></video>
+                    <video src={`http://localhost:4040/${getvideoResolution(resolution)}`} className="video_showvideo_videopage" controls></video>
                     <div className="video_details_videopage">
                         
                         <div className="customvideoplayer" onClick={openCustomplayer}>
