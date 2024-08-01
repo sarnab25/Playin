@@ -1,0 +1,55 @@
+body, #root, .container_pages_app {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.chanel_logo_app {
+  border-radius: 100%;
+  width: 2.2rem;
+  height: 2.2rem;
+  background-color: rgb(224,227,214);
+  display: flex;
+  margin: auto;
+}
+
+.fstChar_logo_app {
+  margin: auto;
+  color: black;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.container_pages_app {
+  display: flex;
+  background-color: rgb(19,19,19);                        
+  height: 100%; /* Make sure this container takes the full height */
+}
+
+.container2_pages_app {
+  width: calc(100vw - 5rem);
+  height: calc(100vh - 3.65rem);
+  border-top: 2px solid rgba(128,128,128,0.45);
+  overflow-y: auto;
+}
+
+.video_box_app
+{
+  width: 21rem;
+  height: 17rem;
+  margin-bottom: 1rem;
+  border: 2px solid transparent;
+}
+.dot
+{
+  height: 4px;
+  width: 4px;
+  border-radius: 100%;
+  background-color: white;
+  margin: auto;
+}
+
+video 
+{
+  background-color: rgba(8, 8, 8, 0.662);
+}

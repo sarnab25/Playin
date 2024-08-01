@@ -1,0 +1,41 @@
+.container_pages_app {
+    display: flex;
+    background-color: rgb(19,19,19);
+    height: 100%; /* Make sure this container takes the full height */
+  }
+  
+  .container2_pages_app {
+    width: calc(100vw - 5rem);
+    height: calc(100vh - 3.65rem);
+    border-top: 2px solid rgba(128,128,128,0.45);
+    overflow-y: auto;
+  }
+
+  .container_librarypage
+  {
+    border-bottom: 1px solid grey;
+    padding: 1rem 2rem;
+    color: aliceblue;
+  }
+
+  .container2_librarypage
+  {
+    margin: 0.5rem 4rem;
+  }
+
+  .title_container_videopage
+  {
+    margin: auto 0.5rem;
+    padding: 0.5rem;
+    font-size: medium;
+  }
+
+  .container_videolist_librarypage
+  {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    height: 80vh;
+    overflow-y: auto;
+  }

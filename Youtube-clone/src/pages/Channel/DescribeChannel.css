@@ -1,0 +1,74 @@
+.container_chanel
+{
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    padding:20px;
+    border-bottom:1px solid #ddd;
+    
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    background-color:transparent;
+    max-width: 100vw;
+    margin: 20px auto;
+}
+
+
+
+.chanel_logo_chanel
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    background-color: #007bff;
+    color: #fff;
+    font-size: 2.5rem;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.decription_chanel
+{
+    text-align: center;
+    color: aliceblue;
+    font-size: xx-large;
+}
+
+.decription_chanel p{
+    font-size: 1em;
+    color: aliceblue;
+    margin-top: 8px;
+}
+
+.editbtn_chanel,
+.uploadbtn_chanel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 20px;
+    margin: 10px 0;
+    border: 1px solid #007bff;
+    border-radius: 4px;
+    background-color: "#007ff";
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s border-color 0.3s;
+}
+
+.editbtn_chanel:hover,
+.uploadbtn_chanel:hover{
+    background-color: #0056b3;
+    border-color: #0056b3;
+}
+
+.editbtn_chanel b,
+.uploadbtn_chanel b{
+    margin-left: 8px;
+    font-size: 1em;
+}
+
+.editbtn_chanel svg,
+.uploadbtn_chanel svg{
+    font-size: 1.2rem;
+}

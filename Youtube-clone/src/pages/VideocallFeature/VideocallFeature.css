@@ -1,0 +1,79 @@
+.video-call{
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+background-color: white;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIyLTA1L3Y5OTYtMDI1LWpvYjU5OC5qcGc.jpg");
+    background-size: cover;
+
+}
+
+.video-call #localvideo
+{
+   width: 40vw;
+   height: 40vh; 
+   margin: 20px;
+   border-radius: 10px;
+
+}
+    
+#remotevideo
+{
+    width: 40vw;
+   height: 40vh; 
+   margin: 20px;
+   border-radius: 10px;
+
+}
+
+.btn_container
+{
+    display: flex;
+}
+#callButton
+{
+
+margin-right: 20px;
+background-color: #007BFF;
+color: aliceblue;
+padding: 10px;
+border-radius: 5px;
+border: none;
+}
+
+.x_btn
+{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    border-radius: 50px;
+    width: 2rem;
+    height: 2rem;
+    margin: 5px;
+    /* padding: 5px; */
+    padding-bottom: 8px;
+    padding-left: 6px;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+font-weight: bold;
+}
+
+.x_btn:hover{
+    background-color: red;
+    color: white;
+}
+
+#callButton:hover{
+    box-shadow: 2px 2px 15px 2px rgba(0, 0, 0, 0.5);
+
+}

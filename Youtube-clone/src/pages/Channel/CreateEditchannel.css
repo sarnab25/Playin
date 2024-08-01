@@ -1,0 +1,65 @@
+.container_CreateEditChannel
+{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    z-index: 1000;
+}
+
+.container2_CreateEditChannel
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ibtn
+{
+    background-color:rgba(0, 0, 255, 0.527);
+    transition: 2s all;
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+
+}
+
+.ibtn:hover{
+    color: orange;
+    background-color: black;
+}
+
+.ibtn_x
+{
+    border: 0;
+    padding: 0;
+    color: black;
+    background-color: transparent;
+    font-size: 1.25rem;
+    font-weight: bolder;
+    right: 10px;
+    top: 0;
+    cursor: pointer;
+    position: absolute;
+    transition: 1s color;
+}
+.ibtn_x:hover
+{
+    color: red;
+}
+
+.ibox
+{
+    width: 80%;
+    padding: 20px;
+    margin: 10px 0;
+    border: 1px solid #000a10;
+    border-radius: 4px;
+}
