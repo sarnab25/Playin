@@ -192,7 +192,7 @@ clickTimeRef.current=setTimeout(()=>{
     return ( 
     <>
         <div className="video_container">
-<video ref= {videoRef} className= "video_element" src={`http://localhost:4040/${currVid.filepath}`}></video>
+<video ref= {videoRef} className= "video_element" src={`https://playin.onrender.com/${currVid.filepath}`}></video>
             <div className=" overlay middle" onClick={handleSingleClick} onDoubleClick={handleTrippleClickM}></div>
 
             <div className=" overlay right" 
