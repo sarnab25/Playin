@@ -174,7 +174,7 @@ clickTimeRef.current=setTimeout(()=>{
 
         if(click===2)
         {
-            const res=await axios.get(`http://localhost:4040/comment/${currVid._id}`).then(res=>
+            const res=await axios.get(`https://playin.onrender.com/comment/${currVid._id}`).then(res=>
             {
                 setComment(res.data)
                 setcommentPop(true);
