@@ -29,7 +29,7 @@ export const uploadvideo=async(req,res)=>
             {
                 if(err)
                 {
-                    res.status(500).json({message:"Error in video process"})
+                    res.status(500).json({message:"Error in video process, render using old version of ffmpeg/Can't handle the error as it requires subscription"})
                     return;
                 }
 
